@@ -1,6 +1,6 @@
 # Fight - WEB3 Multiplayer Shooter Game
 
-![Fight Logo](\Logo.jpg)
+![Fight Logo](Logo.jpg)
 
 Fight is a revolutionary WEB3 multiplayer shooter game built on Solana blockchain, combining fast-paced 3D gameplay with NFT ownership and Play-to-Earn mechanics.
 
