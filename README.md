@@ -28,6 +28,46 @@ client.joinMatch({
 });
 ```
 
+## Gameplay Mechanics
+- **Combat System**: Fast-paced 3D shooter with realistic physics and hit detection
+- **Game Modes**: Team Deathmatch, Battle Royale, Capture the Flag
+- **Progression**: Level up characters and unlock new abilities
+- **Social Features**: Clan system, in-game chat, and friend lists
+
+## Tokenomics Details
+```solidity
+// Solana smart contract snippet
+contract FightToken is SPLToken {
+  function buybackAndBurn(uint256 amount) external {
+    require(msg.sender == treasury, "Unauthorized");
+    _burn(treasury, amount);
+    emit TokensBurned(amount);
+  }
+}
+```
+- **Token Distribution**: 40% gameplay rewards, 30% staking, 20% development, 10% marketing
+- **Staking Rewards**: Earn up to 15% APY by staking FIGHT tokens
+- **Governance**: Token holders can vote on game updates and features
+
+## Development Setup
+```bash
+# Clone repository
+git clone https://github.com/SolFightPump/Fight.git
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## Contribution Guidelines
+- Fork the repository and create your feature branch
+- Ensure your code passes all tests
+- Submit a pull request with a clear description
+- Follow the Solana security best practices
+
+
 ## Tokenomics
 ```solidity
 // Solana smart contract snippet
