@@ -1,0 +1,28 @@
+{
+  "name": "solana-fight-game",
+  "version": "1.0.0",
+  "description": "A blockchain-based fighting game built with Solana and Node.js",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "jest",
+    "build:contract": "cd contracts && cargo build-bpf",
+    "deploy:contract": "solana program deploy target/deploy/fight_token.so"
+  },
+  "keywords": ["solana", "blockchain", "game"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
+    "@solana/web3.js": "^1.98.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "three": "^0.176.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
